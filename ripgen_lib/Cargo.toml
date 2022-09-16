@@ -4,7 +4,7 @@ version = "0.1.4"
 edition = "2021"
 authors = ["d0nut <d0nut@resync.gg>", "youstin"]
 description = "High-performance domain-name permutation generator."
-keywords = ["bug", "bounty", "dnsgen", "recon", "security"]
+keywords = ["bug", "bounty", "dnsgen", e"recon", "security"]
 readme = "README.md"
 license = "MIT"
 repository = "https://github.com/resyncgg/ripgen"
@@ -13,7 +13,7 @@ repository = "https://github.com/resyncgg/ripgen"
 
 [dependencies]
 thiserror = "1"
-addr = "0"
+addr = "0.15"
 fxhash = "0.2.1"
 regex = { version = "1", optional = true }
 lazy_static = { version = "1", optional = true }
